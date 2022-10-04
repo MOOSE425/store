@@ -1,0 +1,60 @@
+html, body, div, ul, li, h1, h2, h3, a, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 100%
+}
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-size: 50px;
+    margin-left: 230px;
+    margin-top: 110px;
+    border-bottom: 2px solid black;
+    width: 60px;
+}
+.image {
+    display: flex;
+    background-color: white;
+    padding: 10px 0px;
+    margin: 10px 230px;
+    max-width: 1100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+    border-radius: 5px;
+}
+.name {
+    position: absolute;
+    left: 600px;
+}
+.details {
+    position: absolute;
+    left: 1000px;
+}
+.button {
+    width: 130px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 230px;
+    border-radius: 5px;
+}
+#button:hover {
+    cursor: pointer;
+}
+.darkModeProducts {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;    
+}
+.darkModeImage {
+    background-color: rgb(100, 100, 100);
+    box-shadow: rgba(255, 255, 255, 0.67) 0px 3px 4px;
+    color: white;
+}
+.darkModePage {
+    background-color: rgb(34, 34, 34); 
+}
+.darkModeButton {
+    border: white 2px solid;
+    color: white;
+}
